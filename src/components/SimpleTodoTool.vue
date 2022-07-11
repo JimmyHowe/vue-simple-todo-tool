@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 
-import {onMounted, reactive, ref} from 'vue';
+import {onMounted, ref} from 'vue';
 import {useLocalStorage} from "../helpers/useLocalStorage";
 import {Todo} from "../types/Todo.contract";
 import TodoList from "./TodoList.vue";
@@ -28,7 +28,7 @@ onMounted(() => {
 
 <template>
 
-  <div class="VueSimpleTodoTool flex flex-col bg-white border p-8 gap-4">
+  <div class="SimpleTodoTool flex flex-col bg-white border p-8 gap-4">
 
     <h1 class="font-bold text-3xl mb-4">
       Todos

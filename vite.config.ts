@@ -6,9 +6,9 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, './lib/index.js'),
+      entry: path.resolve(__dirname, './lib/index.ts'),
       name: 'vue-simple-todo-tool',
-      fileName: (format) => `vue-simple-todo-tool.${format}.js`
+      fileName: (format) => `'vue-simple-todo-tool'.${format}.js`
     },
     rollupOptions: {
       external: ['vue'],
