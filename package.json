@@ -5,8 +5,8 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-simple-todo-tool.umd.js",
-  "module": "./dist/vue-simple-todo-tool.es.js",
+  "main": "dist/vue-simple-todo-tool.umd.js",
+  "module": "dist/vue-simple-todo-tool.es.js",
   "exports": {
     ".": {
       "import": "./dist/vue-simple-todo-tool.es.js",
