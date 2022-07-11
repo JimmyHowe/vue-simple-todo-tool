@@ -1,4 +1,4 @@
-import SimpleTodoTool from '../src/components/SimpleTodoTool.vue';
+import SimpleTodoTool from './src/components/SimpleTodoTool.vue';
 
 export default {
 
