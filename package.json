@@ -5,14 +5,14 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
+  "main": "./dist/vue-simple-todo-tool.umd.js",
+  "module": "./dist/vue-simple-todo-tool.es.js",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
+      "import": "./dist/vue-simple-todo-tool.es.js",
+      "require": "./dist/vue-simple-todo-tool.umd.js"
     },
-    "./dist/index.css": "./src/assets/index.css"
+    "./dist/index.css": "./dist/index.css"
   },
   "scripts": {
     "dev": "vite",

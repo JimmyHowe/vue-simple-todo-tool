@@ -6,7 +6,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/index.js'),
+      entry: path.resolve(__dirname, './lib/index.js'),
       name: 'vue-simple-todo-tool',
       fileName: (format) => `vue-simple-todo-tool.${format}.js`
     },
