@@ -1,16 +1,67 @@
-# Vue 3 + TypeScript + Vite
+<h1 align="center">Welcome to @jimmyhowedotcom/vue-simple-todo-tool 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/@jimmyhowedotcom/vue-simple-todo-tool" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@jimmyhowedotcom/vue-simple-todo-tool.svg">
+  </a>
+  <a href="https://github.com/JimmyHowe/vue-simple-todo-tool#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/JimmyHowe/vue-simple-todo-tool/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/JimmyHowe/vue-simple-todo-tool/blob/master/LICENSE" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/github/license/JimmyHowe/@jimmyhowedotcom/vue-simple-todo-tool" />
+  </a>
+  <a href="https://twitter.com/jimmyhowejr" target="_blank">
+    <img alt="Twitter: jimmyhowejr" src="https://img.shields.io/twitter/follow/jimmyhowejr.svg?style=social" />
+  </a>
+</p>
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> Demonstration of simple todos app built in Vue 3
 
-## Recommended IDE Setup
+### 🏠 [Homepage](https://github.com/JimmyHowe/vue-simple-todo-tool#readme)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+### ✨ [Demo](https://jimmyhowe.com/tools/todos)
 
-## Type Support For `.vue` Imports in TS
+## Install
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+```sh
+yarn install
+```
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+## Usage
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+```sh
+Use it like a pro!
+```
+
+## Run tests
+
+```sh
+yarn storybook
+```
+
+## Author
+
+👤 **Jimmy Howe**
+
+* Website: https://jimmyhowe.com
+* Twitter: [@jimmyhowejr](https://twitter.com/jimmyhowejr)
+* Github: [@JimmyHowe](https://github.com/JimmyHowe)
+* LinkedIn: [@jimmyhowejr](https://linkedin.com/in/jimmyhowejr)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/JimmyHowe/vue-simple-todo-tool/issues). You can also take a look at the [contributing guide](https://github.com/JimmyHowe/vue-simple-todo-tool/blob/master/CONTRIBUTING.md).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2022 [Jimmy Howe](https://github.com/JimmyHowe).<br />
+This project is [ISC](https://github.com/JimmyHowe/vue-simple-todo-tool/blob/master/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
