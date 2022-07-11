@@ -1311,13 +1311,6 @@
     "@types/yargs" "^16.0.0"
     "chalk" "^4.0.0"
 
-"@jimmyhowedotcom/vue-simple-todo-tool@file:":
-  "resolved" "file:"
-  "version" "0.1.5"
-  dependencies:
-    "@jimmyhowedotcom/vue-simple-todo-tool" "file:"
-    "vue" "^3.2.25"
-
 "@joshwooding/vite-plugin-react-docgen-typescript@0.0.4":
   "integrity" "sha512-ezL7SU//1OV4Oyt/zQ3CsX8uLujVEYUHuULkqgcW6wOuQfRnvgkn99HZtLWwS257GmZVwszGQzhL7VE3PbMAYw=="
   "resolved" "https://registry.npmjs.org/@joshwooding/vite-plugin-react-docgen-typescript/-/vite-plugin-react-docgen-typescript-0.0.4.tgz"
