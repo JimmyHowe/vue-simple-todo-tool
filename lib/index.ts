@@ -4,7 +4,7 @@ export default {
 
     install: (app: any, options: any) => {
 
-        console.log('VueSimpleTodoTool installed!');
+        console.log('VueSimpleTodoTool installed!');git
 
         app.component('simple-todo-tool', SimpleTodoTool);
     }
