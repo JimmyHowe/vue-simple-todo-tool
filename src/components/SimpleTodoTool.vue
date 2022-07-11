@@ -28,7 +28,7 @@ onMounted(() => {
 
 <template>
 
-  <div class="VueSimpleTodoTool bg-white border p-8">
+  <div class="VueSimpleTodoTool flex flex-col bg-white border p-8 gap-4">
 
     <h1 class="font-bold text-3xl mb-4">
       Todos

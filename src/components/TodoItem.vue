@@ -22,9 +22,6 @@ const emit = defineEmits([ 'completed', 'delete' ]);
       {{ name }}
     </div>
     <div>
-      <div class="w-8 h-8 border overflow-hidden cursor-pointer" @click="emit('completed')">
-        {{ completed ? '&checkmark;' : '' }}
-      </div>
       <div class="cursor-pointer" @click="emit('delete')">
         X
       </div>

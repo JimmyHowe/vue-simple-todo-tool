@@ -30,11 +30,15 @@ function onSubmit() {
 
   <form class="flex" @submit.prevent="onSubmit">
 
-    <input ref="nameRef" v-model="form.name" class="w-full" required type="text">
+    <div class="flex">
+      <input ref="nameRef" v-model="form.name"
+             class="block w-full rounded-none rounded-l-md pl-10 sm:text-sm border-gray-300" required type="text">
 
-    <button class="my-2 p-4 w-full bg-blue-600 text-white rounded">
-      Add
-    </button>
+      <button class="px-4 py-2 border border-gray-300 text-sm font-medium rounded-r-md text-gray-700 bg-gray-50"
+              type="button">
+        Add
+      </button>
+    </div>
 
   </form>
 
