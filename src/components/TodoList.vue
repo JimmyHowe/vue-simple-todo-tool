@@ -3,22 +3,20 @@
 import {Todo} from "../types/Todo.contract";
 import {useLocalStorage} from "../helpers/useLocalStorage";
 import TodoItem from "./TodoItem.vue";
+import {defineProps, PropType} from "vue";
 
-const props = defineProps<{
+const props = defineProps({
   items: {
-    type: Todo[],
+    type: Array as PropType<Todo[]>,
     required: false,
     default: []
-  },
-  gap?: {
-    default: 4
   }
-}>()
+});
 
 const storage = useLocalStorage();
 
-function onCompleted(item: Todo) {
-  alert(item);
+function onCompleted(completed: number) {
+  alert(completed);
 }
 
 function onRemove(index: number) {
